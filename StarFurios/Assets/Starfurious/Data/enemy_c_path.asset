@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f365f5b7d4f3904d995e554645bc17c, type: 3}
+  m_Name: enemy_c_path
+  m_EditorClassIdentifier: Assembly-CSharp:RFLib:RFPathData
+  PathSegments:
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -4.0618386, y: 6.042914, z: 0}
+    segmentEndPoint: {x: -7.0623, y: -1.0002763, z: 0}
+    controlPoint1: {x: -5.504013, y: 5.6323256, z: 0}
+    controlPoint2: {x: -8.525837, y: 0.95792127, z: 0}
+    segmentSteps: 10
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -7.0623, y: -1.0002763, z: 0}
+    segmentEndPoint: {x: 0.17039168, y: -0.8107736, z: 0}
+    controlPoint1: {x: -4.935502, y: -3.1795597, z: 0}
+    controlPoint2: {x: -1.5458155, y: -2.6426353, z: 0}
+    segmentSteps: 10
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: 0.17039168, y: -0.8107736, z: 0}
+    segmentEndPoint: {x: -1.1245441, y: 4.9374804, z: 0}
+    controlPoint1: {x: 1.9181824, y: 0.80000114, z: 0}
+    controlPoint2: {x: -0.12454414, y: 4.9374804, z: 0}
+    segmentSteps: 10
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -1.1245441, y: 4.9374804, z: 0}
+    segmentEndPoint: {x: -9.367918, y: 2.726613, z: 0}
+    controlPoint1: {x: -2.8509712, y: 5.569157, z: 0}
+    controlPoint2: {x: -10.420866, y: 3.8004608, z: 0}
+    segmentSteps: 10
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -9.367918, y: 2.726613, z: 0}
+    segmentEndPoint: {x: 3.8341148, y: 1.9370176, z: 0}
+    controlPoint1: {x: -8.0623, y: 1.8422663, z: 0}
+    controlPoint2: {x: 3.791848, y: -0.08434561, z: 0}
+    segmentSteps: 20
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: 3.8341148, y: 1.9370176, z: 0}
+    segmentEndPoint: {x: -3.8407521, y: 5.979747, z: 0}
+    controlPoint1: {x: 4.381722, y: 3.2635388, z: 0}
+    controlPoint2: {x: -4.6094456, y: 3.6425452, z: 0}
+    segmentSteps: 20
+    alpha: 0
+    cp_multiplier: 1.1

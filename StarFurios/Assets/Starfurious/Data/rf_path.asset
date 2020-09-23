@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f365f5b7d4f3904d995e554645bc17c, type: 3}
+  m_Name: rf_path
+  m_EditorClassIdentifier: 
+  PathSegments:
+  - segmentType: 1
+    segmentPoints: []
+    segmentStartPoint: {x: 7.3316145, y: 4.819479, z: 0}
+    segmentEndPoint: {x: 6.6534653, y: 2.2680635, z: 0}
+    controlPoint1: {x: 3.7424793, y: 4.5980506, z: 0}
+    controlPoint2: {x: 6.678492, y: 4.2961116, z: 0}
+    segmentSteps: 10
+    alpha: 0
+    cp_multiplier: 1
+  - segmentType: 1
+    segmentPoints: []
+    segmentStartPoint: {x: 6.6534653, y: 2.2680635, z: 0}
+    segmentEndPoint: {x: 7.620102, y: -0.6257863, z: 0}
+    controlPoint1: {x: 4.678492, y: 4.2961116, z: 0}
+    controlPoint2: {x: 7.969756, y: 2.6603184, z: 0}
+    segmentSteps: 10
+    alpha: 0
+    cp_multiplier: 1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: 7.620102, y: -0.6257863, z: 0}
+    segmentEndPoint: {x: 8.794095, y: -3.0828996, z: 0}
+    controlPoint1: {x: 8.453163, y: -0.58678484, z: 0}
+    controlPoint2: {x: 9.560087, y: -3.1219008, z: 0}
+    segmentSteps: 10
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: 8.794095, y: -3.0828996, z: 0}
+    segmentEndPoint: {x: 4.875949, y: -3.8080158, z: 0}
+    controlPoint1: {x: 7.744566, y: -6.2332606, z: 0}
+    controlPoint2: {x: 6.4000816, y: -1.197387, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: 4.875949, y: -3.8080158, z: 0}
+    segmentEndPoint: {x: 0.42174077, y: -4.3385167, z: 0}
+    controlPoint1: {x: 3.6958466, y: -5.8201275, z: 0}
+    controlPoint2: {x: 2.1952007, y: -5.3223505, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: 0.42174077, y: -4.3385167, z: 0}
+    segmentEndPoint: {x: -2.2706544, y: -5.628928, z: 0}
+    controlPoint1: {x: -0.80681133, y: -4.313274, z: 0}
+    controlPoint2: {x: -0.9332063, y: -6.105605, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -2.2706544, y: -5.628928, z: 0}
+    segmentEndPoint: {x: -8.739997, y: -4.446937, z: 0}
+    controlPoint1: {x: -4.5689955, y: -6.169079, z: 0}
+    controlPoint2: {x: -7.045535, y: -3.5109248, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -8.739997, y: -4.446937, z: 0}
+    segmentEndPoint: {x: -6.1728334, y: 0.00703454, z: 0}
+    controlPoint1: {x: -10.132519, y: -5.1112037, z: 0}
+    controlPoint2: {x: -7.310972, y: 0.78716516, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -6.1728334, y: 0.00703454, z: 0}
+    segmentEndPoint: {x: -2.449446, y: -0.10004842, z: 0}
+    controlPoint1: {x: -5.56851, y: 1.0288613, z: 0}
+    controlPoint2: {x: -3.5518975, y: -2.2225816, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -2.449446, y: -0.10004842, z: 0}
+    segmentEndPoint: {x: 1.2710402, y: 1.4104905, z: 0}
+    controlPoint1: {x: -0.39985704, y: 1.5908118, z: 0}
+    controlPoint2: {x: -0.92951775, y: -0.2501766, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: 1.2710402, y: 1.4104905, z: 0}
+    segmentEndPoint: {x: -1.6498276, y: 3.604158, z: 0}
+    controlPoint1: {x: 3.1860106, y: 3.3290815, z: 0}
+    controlPoint2: {x: 1.782038, y: 4.6395783, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -1.6498276, y: 3.604158, z: 0}
+    segmentEndPoint: {x: -4.976198, y: 3.463241, z: 0}
+    controlPoint1: {x: -3.1178432, y: 2.2001114, z: 0}
+    controlPoint2: {x: -3.9371977, y: 5.569313, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -4.976198, y: 3.463241, z: 0}
+    segmentEndPoint: {x: -7.3124266, y: 5.999609, z: 0}
+    controlPoint1: {x: -5.9761977, y: 3.463241, z: 0}
+    controlPoint2: {x: -6.3124266, y: 5.999609, z: 0}
+    segmentSteps: 30
+    alpha: 0
+    cp_multiplier: 1

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f365f5b7d4f3904d995e554645bc17c, type: 3}
+  m_Name: enemy_a_path
+  m_EditorClassIdentifier: Assembly-CSharp:RFLib:RFPathData
+  PathSegments:
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -5.5197444, y: 2.0386176, z: 0}
+    segmentEndPoint: {x: -3.3236184, y: -7.3430395, z: 0}
+    controlPoint1: {x: -1.8065645, y: 3.9550257, z: 0}
+    controlPoint2: {x: -0.9758346, y: -6.002117, z: 0}
+    segmentSteps: 20
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -3.3236184, y: -7.3430395, z: 0}
+    segmentEndPoint: {x: -3.098786, y: -0.9017494, z: 0}
+    controlPoint1: {x: -4.7827506, y: -8.381681, z: 0}
+    controlPoint2: {x: -7.627485, y: -3.0945046, z: 0}
+    segmentSteps: 25
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -3.098786, y: -0.9017494, z: 0}
+    segmentEndPoint: {x: 1.2553966, y: -1.7958739, z: 0}
+    controlPoint1: {x: -1.789669, y: -0.17103502, z: 0}
+    controlPoint2: {x: 0.9077339, y: 0.57218856, z: 0}
+    segmentSteps: 15
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: 1.2553966, y: -1.7958739, z: 0}
+    segmentEndPoint: {x: -1.948767, y: -4.3121715, z: 0}
+    controlPoint1: {x: 1.4451274, y: -3.6936142, z: 0}
+    controlPoint2: {x: -0.81825006, y: -3.9879715, z: 0}
+    segmentSteps: 10
+    alpha: 0
+    cp_multiplier: 1.1
+  - segmentType: 2
+    segmentPoints: []
+    segmentStartPoint: {x: -1.948767, y: -4.3121715, z: 0}
+    segmentEndPoint: {x: -5.6031494, y: 1.9094338, z: 0}
+    controlPoint1: {x: -6.3026323, y: -4.884935, z: 0}
+    controlPoint2: {x: -6.5077033, y: -0.02740395, z: 0}
+    segmentSteps: 25
+    alpha: 0
+    cp_multiplier: 1.1
