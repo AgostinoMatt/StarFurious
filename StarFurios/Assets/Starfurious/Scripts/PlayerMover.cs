@@ -2,6 +2,9 @@
 using System;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
+using CnControls;
+
 
 /// <summary>
 ///  Reacts to input, and moves the player! 
@@ -30,6 +33,11 @@ public class PlayerMover : MonoBehaviour
 
 	Vector3 translateVector = Vector3.zero;		
 	PlayerLogicController player;
+
+	public Rigidbody2D hero;
+	
+	public Slider slider;
+	private float _sliderValue;
 
 	// Use this for initialization
 	void Start () 
@@ -65,6 +73,17 @@ public class PlayerMover : MonoBehaviour
 		else if( pos.y > MaxY  ) pos.y = MaxY ;
 
 		transform.position = pos;
+
+		_sliderValue = slider.value;
+		Vector3 temp = transform.position;
+		temp.x = _sliderValue;
+		transform.localPosition = temp;
+
+		if (hero.velocity.x < VelXMult)
+        {
+			float h = CnInputManager.GetAxis("Horizontal");
+			hero.AddForce(Vector2.right * VelXMult * h, ForceMode2D.Force);
+        }
 
 	}
 }
