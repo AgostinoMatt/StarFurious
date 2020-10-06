@@ -35,15 +35,24 @@ public class PlayerLogicController : MonoBehaviour
 	void Update () 
 	{
 		currFireTime -= Time.deltaTime;
+
+		/*
 		if( currFireTime < 0 && ! isDead)
 		{
 			currFireTime = -1;
 			if( CrossPlatformInputManager.GetAxis( "Fire1" ) != 0 )
 			{
-				currFireTime = FireDelay;
+				currFireTime = Time.time + FireDelay;
 				FireMissile();
 			}
 		}
+		*/
+
+		if (Time.time > currFireTime && ! isDead)
+        {
+			currFireTime = Time.time + FireDelay;
+			FireMissile();
+        }
 	}
 
 	/// <summary>
