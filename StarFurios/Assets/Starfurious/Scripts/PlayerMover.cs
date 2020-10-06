@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
 
 /// <summary>
 ///  Reacts to input, and moves the player! 
@@ -31,8 +32,11 @@ public class PlayerMover : MonoBehaviour
 	Vector3 translateVector = Vector3.zero;		
 	PlayerLogicController player;
 
-	// Use this for initialization
-	void Start () 
+    public Slider slider;
+    private float sliderValue;
+
+    // Use this for initialization
+    void Start () 
 	{
 		player = GetComponent<PlayerLogicController>();
 		transform.position = new Vector3( 0, MinY, 0 );
@@ -53,18 +57,22 @@ public class PlayerMover : MonoBehaviour
 		translateVector.y = yvel * Time.smoothDeltaTime * VelYMult;
 
 
-		Vector3 pos = transform.position;
+		//Vector3 pos = transform.position;
 
-		pos.x += translateVector.x;
-		pos.y += translateVector.y;
+		//pos.x += translateVector.x;
+		//pos.y += translateVector.y;
 
+        sliderValue = slider.value;
+        Vector3 temp = transform.position;
+        temp.x = sliderValue;
+        transform.localPosition = temp;
 
-		if( pos.x > MaxX ) pos.x = MaxX;
-		else if( pos.x < MinX ) pos.x = MinX;
-		if( pos.y < MinY  ) pos.y = MinY  ;
-		else if( pos.y > MaxY  ) pos.y = MaxY ;
+        //if ( pos.x > MaxX ) pos.x = MaxX;
+		//else if( pos.x < MinX ) pos.x = MinX;
+		//if( pos.y < MinY  ) pos.y = MinY  ;
+		//else if( pos.y > MaxY  ) pos.y = MaxY ;
 
-		transform.position = pos;
+		//transform.position = pos;
 
 	}
 }
